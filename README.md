@@ -73,6 +73,7 @@ After tuning the model, tested it out by predicting the emotions for the test da
 ![](images/predict.png?raw=true)
 <br>
 
+![screenshot](./predict.png)
 ## Testing out with live voices.
 In order to test out our model on voices that were completely different than what we have in our training and test data, we recorded our own voices with dfferent emotions and predicted the outcomes. You can see the results below:
 The audio contained a male voice which said **"This coffee sucks"** in a angry tone.
