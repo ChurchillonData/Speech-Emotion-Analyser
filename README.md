@@ -32,6 +32,8 @@ Tested out the audio files by plotting out the waveform and a spectrogram to see
 
 ![screenshot](./wave.png)
 
+![screenshot](./spec.png)
+
 ## Feature Extraction
 The next step involves extracting the features from the audio files which will help our model learn between these audio files.
 For feature extraction we make use of the [**LibROSA**](https://librosa.github.io/librosa/) library in python which is one of the libraries used for audio analysis. 
@@ -50,6 +52,7 @@ For feature extraction we make use of the [**LibROSA**](https://librosa.github.i
 
 <br>
 
+![screenshot](./cnn.png)
 These are array of values with lables appended to them. 
 
 ## Building Models
@@ -80,6 +83,7 @@ The audio contained a male voice which said **"This coffee sucks"** in a angry t
 ![](images/livevoice2.PNG?raw=true)
 <br>
 
+![screenshot](./joomla_speech_prosody.png)
 ### As you can see that the model has predicted the male voice and emotion very accurately in the image above.
 
 ## NOTE: If you are using the model directly and want to decode the output ranging from 0 to 9 then the following list will help you.
